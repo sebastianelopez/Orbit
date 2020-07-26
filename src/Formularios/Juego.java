@@ -65,8 +65,11 @@ public class Juego extends javax.swing.JFrame {
         Cucurucho.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/cucurucho.png"))); // NOI18N
         getContentPane().add(Cucurucho, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, -30, -1, -1));
 
-        Dado.setBackground(new java.awt.Color(255, 255, 255));
         Dado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/dado.png"))); // NOI18N
+        Dado.setContentAreaFilled(false);
+        Dado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Dado.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/dadoapretado.png"))); // NOI18N
+        Dado.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/dadoresplandor.png"))); // NOI18N
         Dado.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 DadoMouseClicked(evt);
@@ -93,16 +96,15 @@ public class Juego extends javax.swing.JFrame {
 
         Volver.setFont(new java.awt.Font("Roboto Thin", 0, 18)); // NOI18N
         Volver.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Boton volver.png"))); // NOI18N
-        Volver.setText("Volver");
         Volver.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 VolverActionPerformed(evt);
             }
         });
-        getContentPane().add(Volver, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 690, 180, 50));
+        getContentPane().add(Volver, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 690, 200, 70));
 
         Universo.setBackground(new java.awt.Color(255, 255, 255));
-        Universo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Space.png"))); // NOI18N
+        Universo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/espacio.gif"))); // NOI18N
         Universo.setText("jLabel1");
         getContentPane().add(Universo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1281, 777));
 
