@@ -96,6 +96,7 @@ public class Juego extends javax.swing.JFrame {
 
         Volver.setFont(new java.awt.Font("Roboto Thin", 0, 18)); // NOI18N
         Volver.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Boton volver.png"))); // NOI18N
+        Volver.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Boton volver apretado.png"))); // NOI18N
         Volver.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 VolverActionPerformed(evt);
