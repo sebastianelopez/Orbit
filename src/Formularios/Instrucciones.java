@@ -1,4 +1,5 @@
 package Formularios;
+import java.awt.*;
 
 public class Instrucciones extends javax.swing.JFrame {
 
@@ -17,6 +18,11 @@ public class Instrucciones extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(770, 600));
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowOpened(java.awt.event.WindowEvent evt) {
+                formWindowOpened(evt);
+            }
+        });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Boton volver.png"))); // NOI18N
@@ -45,6 +51,10 @@ public class Instrucciones extends javax.swing.JFrame {
         landing.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
+        this.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/Imagenes/icono.png")));
+    }//GEN-LAST:event_formWindowOpened
 
     /**
      * @param args the command line arguments
