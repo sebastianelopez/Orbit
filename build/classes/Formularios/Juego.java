@@ -263,14 +263,14 @@ public class Juego extends javax.swing.JFrame {
             Venus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/venus.png")));
             Neptuno.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/neptuno.png")));
             Cucurucho.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/cucurucho.png")));
-            Tierra.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesPlanetas/Tierra_p1.png")));
+            Tierra.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenesPlanetas/Tierra_p1.png")));
         } else if (posicionNaranja == 3 && posicionAzul == 0) {
             Venus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenesPlanetas/venus_p2.png")));
             Marte.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/marte_solo.png")));
             Neptuno.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/neptuno.png")));
             Cucurucho.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/cucurucho.png")));
             Jupiter.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Jupiter_vacio.png")));
-            Tierra.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesPlanetas/Tierra_p1.png")));
+            Tierra.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenesPlanetas/Tierra_p1.png")));
         } else if (posicionNaranja == 5 && posicionAzul == 0) {
             Neptuno.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenesPlanetas/neptuno_p2.png")));
             Marte.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/marte_solo.png")));
