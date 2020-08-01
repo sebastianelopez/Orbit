@@ -33,7 +33,6 @@ public class Ending extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setEnabled(false);
         setMaximumSize(new java.awt.Dimension(798, 598));
         setMinimumSize(new java.awt.Dimension(798, 598));
         setPreferredSize(new java.awt.Dimension(798, 598));
